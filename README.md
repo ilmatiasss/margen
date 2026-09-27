@@ -40,7 +40,7 @@ Las categorías (`/musica`, `/cine`, `/libros`, `/ideas`, `/cultura`, `/play`, `
 
 ## Imágenes
 
-Las portadas de artículos usan un sistema de arte generativo (`src/components/editorial-art.tsx`) en vez de fotografías, como placeholder visual mientras se define la fotografía definitiva del sitio. Cuando haya material propio, lo natural es reemplazar ese componente por `next/image` apuntando a los archivos finales en `public/`.
+La mayoría de los artículos usa fotografía real en `public/images/` (créditos en `PHOTO_CREDITS.md`). Los artículos que todavía no tienen una foto asignada muestran automáticamente un arte generativo (`src/components/editorial-art.tsx`) como respaldo. `src/components/media-frame.tsx` decide cuál mostrar: alcanza con agregar un campo `image` al artículo en `content.ts` y colocar el archivo en `public/images/` para reemplazar el respaldo por la foto definitiva.
 
 ## Contenido
 

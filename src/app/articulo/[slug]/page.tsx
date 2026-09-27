@@ -72,6 +72,11 @@ export default async function ArticlePage({ params }: Props) {
           className="h-full w-full"
         />
       </div>
+      {article.image?.credit ? (
+        <div className="container-page pt-2">
+          <span className="text-xs text-subtle">{article.image.credit}</span>
+        </div>
+      ) : null}
 
       <div className="container-page py-12 md:py-16">
         <div className="mx-auto flex max-w-2xl flex-col gap-6">

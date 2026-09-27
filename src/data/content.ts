@@ -38,6 +38,11 @@ export const articles: Article[] = [
     index: "017",
     title: "5 discos que están marcando el 2025",
     dek: "Una selección de álbumes que merecen tu atención, sin importar en qué género te muevas.",
+    image: {
+      src: "/images/cinco-discos.jpg",
+      alt: "Vista aérea de un escritorio de madera con laptop, audífonos y teléfono",
+      credit: "Foto: Aleksi Tappura / Unsplash",
+    },
     body: [
       "Cada año hay discos que se sienten como un corte: antes y después de escucharlos. Esta selección no busca ser exhaustiva ni predecir qué quedará en la historia, sino señalar cinco trabajos que, en lo que va de 2025, han logrado algo cada vez más difícil: sonar necesarios.",
       "Hay de todo un poco. Un debut que nadie esperaba, un regreso que se sintió como reinvención, y al menos un disco que probablemente vas a odiar la primera vez que lo escuches y no vas a poder dejar de escuchar la segunda.",
@@ -51,6 +56,11 @@ export const articles: Article[] = [
     index: "018",
     title: "La escena electrónica chilena también existe",
     dek: "Un recorrido por los espacios, artistas y sonidos que están construyendo una nueva ola en Santiago.",
+    image: {
+      src: "/images/escena-electronica.jpg",
+      alt: "Multitud con los brazos en alto frente al escenario de un concierto, entre luces y humo",
+      credit: "Foto: Daniel Ebersole / Unsplash",
+    },
     body: [
       "Mientras la conversación pública sigue enfocada en un puñado de géneros dominantes, en galpones y clubes pequeños de Santiago se ha ido armando, casi en silencio, una escena electrónica con identidad propia. No pretende ser masiva. Le basta con ser sólida.",
       "Los colectivos que la sostienen —muchos de ellos autogestionados— comparten equipos, difunden en redes con presupuesto cero y programan noches que rara vez superan las doscientas personas. Aun así, la calidad de lo que se produce ahí compite de igual a igual con cualquier escena regional del continente.",
@@ -77,6 +87,11 @@ export const articles: Article[] = [
     index: "021",
     title: "La nostalgia también es una forma de futuro",
     dek: "El cine como archivo emocional y la manera en que el pasado sigue construyendo nuestro presente.",
+    image: {
+      src: "/images/la-nostalgia.jpg",
+      alt: "Calle de una ciudad al atardecer con luz dorada entre los edificios",
+      credit: "Foto: Danka & Peter / Unsplash",
+    },
     body: [
       "El cine ha sido, desde siempre, una máquina de archivar tiempo. Pero en los últimos años algo cambió en la forma en que las películas se relacionan con su propio pasado: ya no lo citan, lo habitan.",
       "Esta ola de películas que miran hacia atrás no busca simplemente reciclar estética. En sus mejores versiones, usa la nostalgia como una herramienta para procesar el presente, para entender qué se perdió y qué vale la pena rescatar antes de seguir avanzando.",
@@ -90,6 +105,11 @@ export const articles: Article[] = [
     index: "015",
     title: "El cine chileno que no llega a las salas",
     dek: "Festivales, plataformas y circuitos alternativos: dónde ver el cine nacional que el circuito comercial deja fuera.",
+    image: {
+      src: "/images/cine-chileno.jpg",
+      alt: "Interior de una sala con siluetas de personas a contraluz junto a un ventanal",
+      credit: "Foto: Adam Przewoski / Unsplash",
+    },
     body: [
       "Cada año se estrenan en Chile decenas de películas nacionales que la mayoría del público nunca sabrá que existieron. No por falta de calidad, sino porque el circuito comercial de salas simplemente no tiene espacio —ni interés— para sostenerlas más de una semana.",
       "La buena noticia es que ese cine no desapareció: se movió. Festivales regionales, cineclubes universitarios, plataformas de streaming independientes y ciclos itinerantes se convirtieron en el verdadero circuito de exhibición para buena parte de la producción nacional.",
@@ -102,6 +122,11 @@ export const articles: Article[] = [
     index: "006",
     title: "Directoras que están cambiando las reglas",
     dek: "Un recorrido por las voces detrás de cámara que están redefiniendo qué historias se cuentan y cómo.",
+    image: {
+      src: "/images/directoras.jpg",
+      alt: "Persona sosteniendo una cámara fotográfica vintage de doble lente",
+      credit: "Foto: Jennifer Trovato / Unsplash",
+    },
     body: [
       "Durante décadas, la lista de directoras con acceso real a presupuestos grandes y distribución masiva podía contarse casi con una mano. Eso está cambiando, y no solo en número: está cambiando en el tipo de películas que se están haciendo.",
       "Lo que conecta a las directoras que reunimos en este texto no es un estilo común, sino una misma disposición a romper estructuras narrativas que durante mucho tiempo se dieron por obligatorias. Estructuras de tres actos que se abandonan a mitad de camino, géneros que se mezclan sin pedir permiso.",
@@ -114,6 +139,11 @@ export const articles: Article[] = [
     index: "009",
     title: "Libros para una época incierta",
     dek: "Cinco novelas, ensayos y crónicas para entender lo que viene y lo que ya está pasando.",
+    image: {
+      src: "/images/libros-epoca-incierta.jpg",
+      alt: "Libro abierto sobre una mesa de madera",
+      credit: "Foto: Alejandro Escamilla / Unsplash",
+    },
     body: [
       "No hace falta que un libro hable explícitamente del presente para que termine explicándolo. Esta selección reúne cinco títulos —entre novela, ensayo y crónica— que, cada uno a su manera, ayudan a poner en palabras la sensación difusa de estar viviendo un cambio de época.",
       "Algunos lo hacen desde la ficción especulativa, imaginando futuros que se sienten incómodamente posibles. Otros optan por el camino contrario: mirar el pasado con la suficiente distancia como para reconocer patrones que se repiten.",
@@ -138,6 +168,11 @@ export const articles: Article[] = [
     index: "019",
     title: "Releer en tiempos de scroll infinito",
     dek: "Por qué volver a los mismos libros puede ser más revelador que perseguir siempre lo nuevo.",
+    image: {
+      src: "/images/releer-scroll.jpg",
+      alt: "Silla junto a una ventana con cortina, al atardecer",
+      credit: "Foto: Logan Adermatt / Unsplash",
+    },
     body: [
       "Vivimos rodeados de la presión constante de lo nuevo: la novedad editorial, el estreno de la semana, la lista de lo último. En ese contexto, releer un libro que ya conocemos se siente casi como un acto de desperdicio. Este texto argumenta lo contrario.",
       "Releer no es repetir. Cada vez que volvemos a un libro lo hacemos siendo alguien distinto de quien lo leyó la primera vez, y eso cambia radicalmente lo que encontramos en él. Frases que antes pasaban desapercibidas de pronto se vuelven centrales.",
@@ -150,6 +185,11 @@ export const articles: Article[] = [
     index: "008",
     title: "El fin del multitasking",
     dek: "La ciencia detrás de por qué hacer varias cosas a la vez nos hace peores en todas ellas, y cómo estamos reaprendiendo a enfocarnos.",
+    image: {
+      src: "/images/fin-multitasking.jpg",
+      alt: "Escritorio visto desde arriba con monitor, tablet, teclado y notas",
+      credit: "Foto: Vadim Sherbakov / Unsplash",
+    },
     body: [
       "Durante años el multitasking se vendió como una habilidad deseable, casi una virtud laboral. La evidencia acumulada en la última década cuenta una historia distinta: lo que llamamos hacer varias cosas a la vez es, en realidad, cambiar de foco constantemente, y cada cambio tiene un costo.",
       "Ese costo no es solo de tiempo. Es de calidad: peor memoria, más errores, más fatiga acumulada al final del día. El cerebro no está diseñado para procesar dos tareas complejas en simultáneo, por más que la tecnología nos haya convencido de lo contrario.",
@@ -162,6 +202,11 @@ export const articles: Article[] = [
     index: "022",
     title: "¿De quién es una idea?",
     dek: "Entre la inteligencia artificial, la remezcla y el plagio, las fronteras de la autoría se volvieron más difusas que nunca.",
+    image: {
+      src: "/images/de-quien-es-una-idea.jpg",
+      alt: "Máquina de escribir vintage desarmada en piezas sobre una superficie",
+      credit: "Foto: Florian Klauer / Unsplash",
+    },
     body: [
       "La pregunta por la autoría no es nueva, pero rara vez había sido tan urgente. Herramientas capaces de generar texto, imagen y música a partir de patrones aprendidos de obras existentes obligan a repensar algo que dábamos por resuelto: qué significa que una idea sea de alguien.",
       "El debate suele polarizarse rápido, entre quienes ven en esto una amenaza existencial para la creación y quienes lo consideran una extensión más de una larga tradición de remezcla, cita e influencia. La realidad, como casi siempre, es más incómoda que cualquiera de los dos extremos.",
@@ -174,6 +219,11 @@ export const articles: Article[] = [
     index: "003",
     title: "Aburrirse como acto de resistencia",
     dek: "En un mundo diseñado para nunca soltar la atención, no hacer nada se ha vuelto casi radical.",
+    image: {
+      src: "/images/aburrirse-resistencia.jpg",
+      alt: "Dos siluetas caminando por un campo con neblina, al atardecer",
+      credit: "Foto: Caleb George / Unsplash",
+    },
     body: [
       "Cada segundo de tiempo libre disponible tiene, hoy, algo diseñado para llenarlo. Notificaciones, feeds infinitos, recomendaciones automáticas. En ese contexto, aburrirse deliberadamente —no hacer nada, sin más— se ha convertido en una decisión que va a contracorriente de una economía entera.",
       "La psicología viene señalando desde hace tiempo algo que intuíamos: el aburrimiento no es un vacío improductivo, sino un estado necesario para que surjan ideas nuevas. Cuando la mente deja de recibir estímulo externo, empieza a generar el propio.",
@@ -186,6 +236,11 @@ export const articles: Article[] = [
     index: "026",
     title: "Santiago: una ciudad de contrastes",
     dek: "Recorremos la ciudad para encontrar sus rincones más interesantes, lejos del centro.",
+    image: {
+      src: "/images/santiago-contrastes.jpg",
+      alt: "Skyline nocturno de una ciudad con luces distantes junto al agua",
+      credit: "Foto: Guillaume / Unsplash",
+    },
     body: [
       "Santiago tiene la reputación de ser una ciudad difícil de querer. Gris, extensa, dividida. Pero basta con salir de los circuitos habituales para encontrar otra cosa: barrios que conservan una identidad propia, esquinas que resisten la homogenización, comunidades que insisten en construir cultura desde lo local.",
       "Este recorrido evita a propósito los puntos ya sobreexplorados de la ciudad. En cambio, se detiene en talleres de barrio, ferias que llevan décadas funcionando igual, y proyectos culturales autogestionados que rara vez aparecen en las guías turísticas convencionales.",
@@ -198,6 +253,11 @@ export const articles: Article[] = [
     index: "012",
     title: "Los oficios que la ciudad está perdiendo",
     dek: "Talabarteros, relojeros, tipógrafos: un registro de los oficios manuales que resisten en medio de la ciudad que cambia.",
+    image: {
+      src: "/images/oficios-ciudad.jpg",
+      alt: "Puerta antigua de madera en una fachada de piedra",
+      credit: "Foto: Paul Evans / Unsplash",
+    },
     body: [
       "En un puñado de locales que sobreviven casi por terquedad, un grupo cada vez más reducido de artesanos sigue practicando oficios que el resto de la ciudad dejó de necesitar hace tiempo. Este texto es un registro de esos espacios, antes de que desaparezcan.",
       "Ninguno de los oficiantes que visitamos se define a sí mismo como un símbolo de resistencia. Simplemente siguen haciendo lo que siempre supieron hacer, aunque cada año sea más difícil encontrar aprendices dispuestos a continuar el oficio.",
@@ -210,6 +270,11 @@ export const articles: Article[] = [
     index: "010",
     title: "Los videojuegos que se sienten como literatura",
     dek: "Un puñado de títulos que usan la mecánica del juego para contar historias que no podrían existir en ningún otro formato.",
+    image: {
+      src: "/images/videojuegos-literatura.jpg",
+      alt: "Laptop, cámara y cuaderno sobre un escritorio de madera",
+      credit: "Foto: Galymzhan Abdugalimov / Unsplash",
+    },
     body: [
       "La comparación entre videojuegos y literatura suele usarse como un cumplido fácil, casi como si necesitara pedirle prestado prestigio a otro medio. Los juegos reunidos en este texto no necesitan esa comparación: lo que logran solo es posible dentro del videojuego.",
       "Lo que los distingue no es la calidad de su guion, sino cómo integran la mecánica de juego a la narrativa: decisiones que importan de verdad, estructuras que cambian según cómo se juega, silencios que solo el jugador puede llenar.",
@@ -246,6 +311,11 @@ export const articles: Article[] = [
     index: "014",
     title: "¿Qué queda de internet en nuestras vidas?",
     dek: "Una reflexión sobre la tecnología, la atención y lo que estamos dejando atrás.",
+    image: {
+      src: "/images/que-queda-internet.jpg",
+      alt: "Laptop abierto junto a un teléfono y una taza de café sobre un escritorio de madera",
+      credit: "Foto: Alejandro Escamilla / Unsplash",
+    },
     body: [
       "Hubo una época en que internet prometía ser un espacio abierto, casi utópico, de conexión y descubrimiento. Buena parte de esa promesa sigue viva en algunos rincones, pero la experiencia cotidiana de estar conectado hoy se parece cada vez menos a eso.",
       "Plataformas optimizadas para retener la atención el mayor tiempo posible, algoritmos que deciden por nosotros qué vale la pena ver, un feed que nunca termina. La pregunta ya no es solo qué hacemos con internet, sino qué está haciendo internet con nosotros.",
@@ -258,6 +328,11 @@ export const articles: Article[] = [
     index: "020",
     title: "La era del software que nadie entiende del todo",
     dek: "Sistemas tan complejos que ni sus propios creadores pueden explicarlos por completo. Qué significa eso para quienes los usamos.",
+    image: {
+      src: "/images/software-nadie-entiende.jpg",
+      alt: "Piezas de una cámara desarmada ordenadas sobre una superficie blanca",
+      credit: "Foto: Vadim Sherbakov / Unsplash",
+    },
     body: [
       "Los sistemas que hoy tomamos decisiones cada día —qué vemos, qué compramos, a veces incluso qué oportunidades laborales se nos presentan— se volvieron tan complejos que ni los equipos que los construyen pueden explicar del todo por qué producen un resultado específico.",
       "Esto no es necesariamente el escenario de ciencia ficción que suele imaginarse. Es algo más silencioso y, en algún sentido, más difícil de abordar: una infraestructura invisible que damos por hecho, aunque cada vez entendamos menos cómo funciona por dentro.",
@@ -270,6 +345,11 @@ export const articles: Article[] = [
     index: "007",
     title: "Desconectarse es un privilegio",
     dek: "Apagar el teléfono suena simple hasta que se convierte en un lujo que no todos pueden costear.",
+    image: {
+      src: "/images/desconectarse-privilegio.jpg",
+      alt: "Mar en calma cubierto por una neblina densa",
+      credit: "Foto: Yuriy Khimanin / Unsplash",
+    },
     body: [
       "El consejo aparece en todas partes: apaga el teléfono, tómate un descanso digital, desconéctate el fin de semana. Es un buen consejo. También es, para una parte importante de quienes trabajan hoy, casi imposible de seguir.",
       "Para quienes dependen de plataformas digitales para conseguir trabajo, coordinar turnos o simplemente estar disponibles para un empleador que espera respuesta inmediata, estar siempre conectado no es una elección: es una condición del trabajo mismo.",
@@ -301,8 +381,28 @@ export function getLatestGrid(): Article[] {
 
 export const listItems: ListItem[] = [
   { order: "01", action: "Escuchar", title: "Songs of a Lost World", creator: "The Cure" },
-  { order: "02", action: "Ver", title: "Ghost in the Shell", creator: "1995" },
-  { order: "03", action: "Leer", title: "Sapiens", creator: "Yuval Noah Harari" },
+  {
+    order: "02",
+    action: "Ver",
+    title: "Ghost in the Shell",
+    creator: "1995",
+    image: {
+      src: "/images/list-ver.jpg",
+      alt: "Persona sosteniendo una cámara fotográfica vintage de doble lente",
+      credit: "Foto: Jennifer Trovato / Unsplash",
+    },
+  },
+  {
+    order: "03",
+    action: "Leer",
+    title: "Sapiens",
+    creator: "Yuval Noah Harari",
+    image: {
+      src: "/images/list-leer.jpg",
+      alt: "Silla junto a una ventana con cortina, al atardecer",
+      credit: "Foto: Logan Adermatt / Unsplash",
+    },
+  },
   { order: "04", action: "Jugar", title: "Elden Ring", creator: "FromSoftware" },
   { order: "05", action: "Descubrir", title: "Salomon XT-6", creator: "Gore-Tex" },
 ];
