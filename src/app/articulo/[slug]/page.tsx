@@ -50,7 +50,7 @@ export default async function ArticlePage({ params }: Props) {
             ← {category.label}
           </Link>
         ) : null}
-        <span className="kicker text-xs text-muted">
+        <span className="kicker text-xs font-bold text-accent">
           {category?.label} / {article.index}
         </span>
         <h1 className="max-w-3xl font-serif text-4xl font-light leading-[1.08] text-foreground sm:text-5xl md:text-6xl">

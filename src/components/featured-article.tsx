@@ -9,7 +9,7 @@ export function FeaturedArticle() {
   return (
     <section className="container-page grid grid-cols-1 gap-10 pb-16 pt-10 md:pt-14 lg:grid-cols-2 lg:items-center lg:gap-16 lg:pb-24">
       <div className="flex flex-col gap-6">
-        <span className="kicker text-xs text-muted">
+        <span className="kicker text-xs font-bold text-accent">
           Destacado / {article.index}
         </span>
         <h1 className="font-serif text-5xl font-light leading-[1.05] text-foreground sm:text-6xl md:text-7xl">

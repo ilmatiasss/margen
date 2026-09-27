@@ -102,9 +102,9 @@ export function SiteHeader() {
                 key={category.slug}
                 href={`/${category.slug}`}
                 onClick={() => setMenuOpen(false)}
-                className="group flex items-baseline gap-4 border-b border-border py-4 font-serif text-4xl font-light text-foreground transition-colors hover:text-muted md:text-6xl"
+                className="group flex items-baseline gap-4 border-b border-border py-4 font-serif text-4xl font-light text-foreground transition-colors hover:text-accent md:text-6xl"
               >
-                <span className="kicker text-xs text-subtle">
+                <span className="kicker text-xs font-bold text-accent">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 {category.label}

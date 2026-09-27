@@ -117,12 +117,12 @@ export const articles: Article[] = [
     dek: "Festivales, plataformas y circuitos alternativos: dónde ver el cine nacional que el circuito comercial deja fuera.",
     image: {
       src: "/images/cine-chileno.jpg",
-      alt: "Interior de una sala con siluetas de personas a contraluz junto a un ventanal",
-      credit: "Foto: Adam Przewoski / Unsplash",
+      alt: "Fachada de la Sala de Cine de Ñuñoa, Santiago",
+      credit: "Foto: Rjcastillo / Wikimedia Commons (CC BY-SA 4.0)",
     },
     body: [
       "Cada año se estrenan en Chile decenas de películas nacionales que la mayoría del público nunca sabrá que existieron. No por falta de calidad, sino porque el circuito comercial de salas simplemente no tiene espacio —ni interés— para sostenerlas más de una semana.",
-      "La buena noticia es que ese cine no desapareció: se movió. Festivales regionales, cineclubes universitarios, plataformas de streaming independientes y ciclos itinerantes se convirtieron en el verdadero circuito de exhibición para buena parte de la producción nacional.",
+      "La buena noticia es que ese cine no desapareció: se movió. Festivales regionales, cineclubes universitarios como la Sala de Cine de Ñuñoa, plataformas de streaming independientes y ciclos itinerantes se convirtieron en el verdadero circuito de exhibición para buena parte de la producción nacional.",
       "El desafío ya no es tanto hacer las películas, dicen varios de los realizadores consultados para este texto, sino que alguien las encuentre. Por eso armamos una guía de dónde buscar, actualizada cada temporada, para no perderle el rastro a lo que se está haciendo fuera del radar.",
     ],
   },
@@ -253,8 +253,8 @@ export const articles: Article[] = [
     dek: "Recorremos la ciudad para encontrar sus rincones más interesantes, lejos del centro.",
     image: {
       src: "/images/santiago-contrastes.jpg",
-      alt: "Skyline nocturno de una ciudad con luces distantes junto al agua",
-      credit: "Foto: Guillaume / Unsplash",
+      alt: "Atardecer en Santiago, con la torre de una iglesia colonial junto a edificios modernos",
+      credit: "Foto: Álvaro Orozco / Wikimedia Commons (CC BY 3.0)",
     },
     body: [
       "Santiago tiene la reputación de ser una ciudad difícil de querer. Gris, extensa, dividida. Pero basta con salir de los circuitos habituales para encontrar otra cosa: barrios que conservan una identidad propia, esquinas que resisten la homogenización, comunidades que insisten en construir cultura desde lo local.",
@@ -270,11 +270,11 @@ export const articles: Article[] = [
     dek: "Talabarteros, relojeros, tipógrafos: un registro de los oficios manuales que resisten en medio de la ciudad que cambia.",
     image: {
       src: "/images/oficios-ciudad.jpg",
-      alt: "Puerta antigua de madera en una fachada de piedra",
-      credit: "Foto: Paul Evans / Unsplash",
+      alt: "Fachada del Mercado Central de Santiago",
+      credit: "Foto: Carlos yo / Wikimedia Commons (CC BY-SA 4.0)",
     },
     body: [
-      "En un puñado de locales que sobreviven casi por terquedad, un grupo cada vez más reducido de artesanos sigue practicando oficios que el resto de la ciudad dejó de necesitar hace tiempo. Este texto es un registro de esos espacios, antes de que desaparezcan.",
+      "En un puñado de locales que sobreviven casi por terquedad —muchos de ellos a pasos del Mercado Central de Santiago—, un grupo cada vez más reducido de artesanos sigue practicando oficios que el resto de la ciudad dejó de necesitar hace tiempo. Este texto es un registro de esos espacios, antes de que desaparezcan.",
       "Ninguno de los oficiantes que visitamos se define a sí mismo como un símbolo de resistencia. Simplemente siguen haciendo lo que siempre supieron hacer, aunque cada año sea más difícil encontrar aprendices dispuestos a continuar el oficio.",
       "Hay algo profundamente actual, sin embargo, en esa insistencia por lo manual y lo lento, justo cuando el resto del mundo se mueve en la dirección exactamente opuesta. Un contrapeso silencioso a una ciudad que parece decidida a automatizarlo todo.",
     ],

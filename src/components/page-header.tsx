@@ -13,7 +13,9 @@ export function PageHeader({
 }) {
   return (
     <div className="container-page flex flex-col gap-5 border-b border-border pb-10 pt-12 md:pt-16">
-      {kicker ? <span className="kicker text-xs text-muted">{kicker}</span> : null}
+      {kicker ? (
+        <span className="kicker text-xs font-bold text-accent">{kicker}</span>
+      ) : null}
       <h1 className="font-serif text-4xl font-light leading-tight text-foreground sm:text-5xl md:text-6xl">
         {title}
       </h1>

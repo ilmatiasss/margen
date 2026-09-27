@@ -30,7 +30,7 @@ export default function TheListPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <span className="kicker text-[11px] text-subtle">
+                <span className="kicker text-[11px] font-bold text-accent">
                   {item.order} · {item.action}
                 </span>
                 <span className="font-serif text-xl text-foreground">

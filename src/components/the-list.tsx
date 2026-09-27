@@ -13,7 +13,7 @@ export function TheList() {
               <br />
               MARGEN
               <br />
-              LIST <span className="text-muted">/ 03</span>
+              LIST <span className="text-accent">/ 03</span>
             </h2>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-muted">
               10 cosas que estamos escuchando, viendo, leyendo y pensando esta
@@ -36,7 +36,7 @@ export function TheList() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <span className="kicker text-[11px] text-subtle">
+                <span className="kicker text-[11px] font-bold text-accent">
                   {item.order} · {item.action}
                 </span>
                 <span className="text-sm leading-snug text-foreground">

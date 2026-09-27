@@ -33,7 +33,7 @@ export function SplitFeature() {
             />
           </div>
           <div className="flex flex-col gap-3">
-            <span className="kicker text-[11px] text-subtle">
+            <span className="kicker text-[11px] font-bold text-accent">
               {category?.label} / {article.index}
             </span>
             <h3 className="font-serif text-2xl font-light leading-snug text-foreground transition-colors group-hover:text-muted md:text-3xl">

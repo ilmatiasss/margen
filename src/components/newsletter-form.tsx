@@ -38,7 +38,7 @@ export function NewsletterForm() {
       <button
         type="submit"
         aria-label="Suscribirse"
-        className="shrink-0 text-foreground transition-transform hover:translate-x-1"
+        className="shrink-0 text-foreground transition-all hover:translate-x-1 hover:text-accent"
       >
         <ArrowIcon className="h-4 w-4" />
       </button>

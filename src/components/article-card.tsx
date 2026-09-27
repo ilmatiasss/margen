@@ -18,7 +18,7 @@ export function ArticleCard({ article }: { article: Article }) {
         />
       </div>
       <div className="flex flex-1 flex-col gap-2 pt-4">
-        <span className="kicker text-[11px] text-subtle">
+        <span className="kicker text-[11px] font-bold text-accent">
           {category?.label} / {article.index}
         </span>
         <h3 className="font-serif text-lg leading-snug text-foreground transition-colors group-hover:text-muted md:text-xl">
