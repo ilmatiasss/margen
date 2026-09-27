@@ -31,6 +31,7 @@ export function MediaFrame({
         fill
         sizes={sizes ?? "100vw"}
         priority={priority}
+        quality={90}
         className={`object-cover ${className ?? ""}`}
       />
     );

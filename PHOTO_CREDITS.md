@@ -11,7 +11,6 @@ Se usan bajo la [Licencia Unsplash](https://unsplash.com/license), que permite u
 | la-nostalgia.jpg | Danka & Peter | unsplash.com/photos/3FN6tlvTjwM |
 | directoras.jpg / list-ver.jpg | Jennifer Trovato | unsplash.com/photos/baRYCsjO6z4 |
 | libros-epoca-incierta.jpg | Alejandro Escamilla | unsplash.com/photos/cZhUxIQjILg |
-| releer-scroll.jpg / list-leer.jpg | Logan Adermatt | unsplash.com/photos/VkF8pVVoFg0 |
 | fin-multitasking.jpg | Vadim Sherbakov | unsplash.com/photos/Hi9GSwWkCJk |
 | de-quien-es-una-idea.jpg | Florian Klauer | unsplash.com/photos/-K6JMRMj4x4 |
 | aburrirse-resistencia.jpg | Caleb George | unsplash.com/photos/zdjOYZeJj3w |
@@ -37,6 +36,7 @@ Estas sí requieren atribución obligatoria por su licencia — por eso además 
 | santiago-contrastes.jpg | Álvaro Orozco | CC BY 3.0 | commons.wikimedia.org/wiki/File:Atardecer_En_Santiago_(258224103).jpeg |
 | cine-chileno.jpg | Rjcastillo | CC BY-SA 4.0 | commons.wikimedia.org/wiki/File:Sala_de_Cine_de_Ñuñoa_A74011420250525.jpg |
 | oficios-ciudad.jpg | Carlos yo | CC BY-SA 4.0 | commons.wikimedia.org/wiki/File:Mercado_Central,_Santiago_20230324.jpg |
+| releer-scroll.jpg / list-leer.jpg | Shixart1985 | CC BY 2.0 | commons.wikimedia.org/wiki/File:Woman_with_black_clothes_sitting_on_a_chair_in_front_of_a_window_and_reading_an_old_book.jpg |
 
 ---
 

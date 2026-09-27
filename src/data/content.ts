@@ -185,8 +185,8 @@ export const articles: Article[] = [
     dek: "Por qué volver a los mismos libros puede ser más revelador que perseguir siempre lo nuevo.",
     image: {
       src: "/images/releer-scroll.jpg",
-      alt: "Silla junto a una ventana con cortina, al atardecer",
-      credit: "Foto: Logan Adermatt / Unsplash",
+      alt: "Mujer sentada junto a una ventana, leyendo un libro antiguo",
+      credit: "Foto: Shixart1985 / Wikimedia Commons (CC BY 2.0)",
     },
     body: [
       "Vivimos rodeados de la presión constante de lo nuevo: la novedad editorial, el estreno de la semana, la lista de lo último. En ese contexto, releer un libro que ya conocemos se siente casi como un acto de desperdicio. Este texto argumenta lo contrario.",
@@ -434,8 +434,8 @@ export const listItems: ListItem[] = [
     creator: "Yuval Noah Harari",
     image: {
       src: "/images/list-leer.jpg",
-      alt: "Silla junto a una ventana con cortina, al atardecer",
-      credit: "Foto: Logan Adermatt / Unsplash",
+      alt: "Mujer sentada junto a una ventana, leyendo un libro antiguo",
+      credit: "Foto: Shixart1985 / Wikimedia Commons (CC BY 2.0)",
     },
   },
   {
