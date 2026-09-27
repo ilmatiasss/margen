@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ArticleCard } from "@/components/article-card";
 import { PageHeader } from "@/components/page-header";
+import { Reveal } from "@/components/reveal";
 import { articles } from "@/data/content";
 
 export const metadata: Metadata = {
@@ -22,8 +23,10 @@ export default function ArchivePage() {
       />
       <div className="container-page py-14 md:py-16">
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {sorted.map((article) => (
-            <ArticleCard key={article.slug} article={article} />
+          {sorted.map((article, index) => (
+            <Reveal key={article.slug} delay={(index % 6) * 90}>
+              <ArticleCard article={article} />
+            </Reveal>
           ))}
         </div>
       </div>

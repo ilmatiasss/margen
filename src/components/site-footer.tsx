@@ -7,7 +7,7 @@ export function SiteFooter() {
     <footer className="border-t border-border">
       <div
         id="newsletter"
-        className="container-page flex flex-col gap-8 py-10 md:flex-row md:items-center md:justify-between"
+        className="container-page flex flex-col gap-8 py-10 md:grid md:grid-cols-3 md:items-center md:gap-10"
       >
         <div>
           <span className="font-sans text-lg font-bold tracking-tight">
@@ -18,7 +18,7 @@ export function SiteFooter() {
           </p>
         </div>
 
-        <ul className="flex flex-wrap gap-x-6 gap-y-2">
+        <ul className="flex flex-wrap gap-x-6 gap-y-2 md:justify-center">
           {legalLinks.map((link) => (
             <li key={link.label}>
               <Link
@@ -31,8 +31,8 @@ export function SiteFooter() {
           ))}
         </ul>
 
-        <div className="flex flex-col gap-3">
-          <span className="kicker text-xs text-muted">
+        <div className="flex flex-col gap-3 md:items-end">
+          <span className="kicker text-xs text-muted md:text-right">
             Suscríbete a nuestro newsletter
           </span>
           <NewsletterForm />

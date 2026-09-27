@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
 import { MediaFrame } from "@/components/media-frame";
+import { Reveal } from "@/components/reveal";
 import { listItems } from "@/data/content";
 
 export const metadata: Metadata = {
@@ -19,8 +20,13 @@ export default function TheListPage() {
       />
       <div className="container-page py-14 md:py-16">
         <ul className="grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-          {listItems.map((item) => (
-            <li key={item.order} className="flex flex-col gap-4">
+          {listItems.map((item, index) => (
+            <Reveal
+              key={item.order}
+              as="li"
+              delay={index * 90}
+              className="card-hover flex flex-col gap-4"
+            >
               <div className="relative aspect-[4/3] overflow-hidden bg-surface">
                 <MediaFrame
                   image={item.image}
@@ -38,7 +44,7 @@ export default function TheListPage() {
                 </span>
                 <span className="text-sm text-muted">{item.creator}</span>
               </div>
-            </li>
+            </Reveal>
           ))}
         </ul>
       </div>

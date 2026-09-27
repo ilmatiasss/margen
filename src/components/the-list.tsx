@@ -1,12 +1,13 @@
 import { listItems } from "@/data/content";
 import { ArrowLink } from "./arrow-link";
 import { MediaFrame } from "./media-frame";
+import { Reveal } from "./reveal";
 
 export function TheList() {
   return (
     <section className="border-t border-border">
       <div className="container-page grid grid-cols-1 gap-10 py-16 lg:grid-cols-[minmax(0,320px)_1fr] lg:gap-16 lg:py-20">
-        <div className="flex flex-col justify-between gap-8">
+        <Reveal className="flex flex-col justify-between gap-8">
           <div>
             <h2 className="font-sans text-4xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-5xl">
               THE
@@ -21,11 +22,16 @@ export function TheList() {
             </p>
           </div>
           <ArrowLink href="/the-list">Ver lista</ArrowLink>
-        </div>
+        </Reveal>
 
         <ul className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-5">
-          {listItems.map((item) => (
-            <li key={item.order} className="flex flex-col gap-3">
+          {listItems.map((item, index) => (
+            <Reveal
+              key={item.order}
+              as="li"
+              delay={index * 90}
+              className="card-hover flex flex-col gap-3"
+            >
               <div className="relative aspect-square overflow-hidden bg-surface">
                 <MediaFrame
                   image={item.image}
@@ -44,7 +50,7 @@ export function TheList() {
                 </span>
                 <span className="text-xs text-muted">{item.creator}</span>
               </div>
-            </li>
+            </Reveal>
           ))}
         </ul>
       </div>

@@ -34,6 +34,9 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="flex min-h-screen flex-col bg-background font-sans text-foreground antialiased">
+        <noscript>
+          <style>{`.reveal { opacity: 1 !important; transform: none !important; }`}</style>
+        </noscript>
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />

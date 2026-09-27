@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { PageHeader } from "@/components/page-header";
+import { Reveal } from "@/components/reveal";
 import { categories, getArticlesByCategory, getCategory } from "@/data/content";
 
 export function generateStaticParams() {
@@ -39,8 +40,10 @@ export default async function CategoryPage({ params }: Props) {
       <div className="container-page py-14 md:py-16">
         {articles.length > 0 ? (
           <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-            {articles.map((article) => (
-              <ArticleCard key={article.slug} article={article} />
+            {articles.map((article, index) => (
+              <Reveal key={article.slug} delay={index * 90}>
+                <ArticleCard article={article} />
+              </Reveal>
             ))}
           </div>
         ) : (

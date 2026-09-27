@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { ArrowLink } from "@/components/arrow-link";
 import { MediaFrame } from "@/components/media-frame";
+import { Reveal } from "@/components/reveal";
 import {
   articles,
   getArticleBySlug,
@@ -61,7 +62,7 @@ export default async function ArticlePage({ params }: Props) {
         </p>
       </div>
 
-      <div className="container-page relative aspect-[16/9] overflow-hidden bg-surface md:aspect-[21/9]">
+      <Reveal className="container-page relative aspect-[16/9] overflow-hidden bg-surface md:aspect-[21/9]">
         <MediaFrame
           image={article.image}
           seed={article.slug}
@@ -69,9 +70,9 @@ export default async function ArticlePage({ params }: Props) {
           scale="hero"
           sizes="100vw"
           priority
-          className="h-full w-full"
+          className="ken-burns h-full w-full"
         />
-      </div>
+      </Reveal>
       {article.image?.credit ? (
         <div className="container-page pt-2">
           <span className="text-xs text-subtle">{article.image.credit}</span>
@@ -103,8 +104,10 @@ export default async function ArticlePage({ params }: Props) {
               ) : null}
             </div>
             <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-              {related.map((item) => (
-                <ArticleCard key={item.slug} article={item} />
+              {related.map((item, index) => (
+                <Reveal key={item.slug} delay={index * 90}>
+                  <ArticleCard article={item} />
+                </Reveal>
               ))}
             </div>
           </div>

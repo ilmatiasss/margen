@@ -86,9 +86,52 @@
     animation: marquee 24s linear infinite;
   }
 
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity 800ms cubic-bezier(0.16, 1, 0.3, 1),
+      transform 800ms cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .ken-burns {
+    animation: ken-burns 12s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+  }
+
+  .card-hover {
+    transition:
+      transform 380ms cubic-bezier(0.16, 1, 0.3, 1),
+      box-shadow 380ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px -20px rgba(0, 0, 0, 0.55);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .marquee-track {
       animation: none;
+    }
+
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+
+    .ken-burns {
+      animation: none;
+    }
+
+    .card-hover:hover {
+      transform: none;
     }
   }
 }
@@ -99,5 +142,14 @@
   }
   to {
     transform: translateX(-50%);
+  }
+}
+
+@keyframes ken-burns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
   }
 }
