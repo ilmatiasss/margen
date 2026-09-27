@@ -1,17 +1,19 @@
 import Link from "next/link";
 import { getCategory } from "@/data/content";
 import type { Article } from "@/types/content";
-import { EditorialArt } from "./editorial-art";
+import { MediaFrame } from "./media-frame";
 
 export function ArticleCard({ article }: { article: Article }) {
   const category = getCategory(article.category);
 
   return (
     <Link href={`/articulo/${article.slug}`} className="group flex flex-col">
-      <div className="aspect-[4/3] overflow-hidden bg-surface">
-        <EditorialArt
+      <div className="relative aspect-[4/3] overflow-hidden bg-surface">
+        <MediaFrame
+          image={article.image}
           seed={article.slug}
           category={article.category}
+          sizes="(min-width: 1280px) 20vw, (min-width: 640px) 45vw, 90vw"
           className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.04]"
         />
       </div>

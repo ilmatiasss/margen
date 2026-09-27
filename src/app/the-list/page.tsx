@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
-import { EditorialArt } from "@/components/editorial-art";
+import { MediaFrame } from "@/components/media-frame";
 import { listItems } from "@/data/content";
 
 export const metadata: Metadata = {
@@ -21,9 +21,11 @@ export default function TheListPage() {
         <ul className="grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
           {listItems.map((item) => (
             <li key={item.order} className="flex flex-col gap-4">
-              <div className="aspect-[4/3] overflow-hidden bg-surface">
-                <EditorialArt
+              <div className="relative aspect-[4/3] overflow-hidden bg-surface">
+                <MediaFrame
+                  image={item.image}
                   seed={`list-${item.order}-${item.title}`}
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                   className="h-full w-full"
                 />
               </div>

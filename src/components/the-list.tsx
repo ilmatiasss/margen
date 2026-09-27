@@ -1,6 +1,6 @@
 import { listItems } from "@/data/content";
 import { ArrowLink } from "./arrow-link";
-import { EditorialArt } from "./editorial-art";
+import { MediaFrame } from "./media-frame";
 
 export function TheList() {
   return (
@@ -26,10 +26,12 @@ export function TheList() {
         <ul className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-5">
           {listItems.map((item) => (
             <li key={item.order} className="flex flex-col gap-3">
-              <div className="aspect-square overflow-hidden bg-surface">
-                <EditorialArt
+              <div className="relative aspect-square overflow-hidden bg-surface">
+                <MediaFrame
+                  image={item.image}
                   seed={`list-${item.order}-${item.title}`}
                   scale="small"
+                  sizes="(min-width: 1024px) 16vw, 33vw"
                   className="h-full w-full"
                 />
               </div>

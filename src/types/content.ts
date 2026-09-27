@@ -12,6 +12,12 @@ export interface Category {
   label: string;
 }
 
+export interface ArticleImage {
+  src: string;
+  alt: string;
+  credit?: string;
+}
+
 export interface Article {
   slug: string;
   category: CategorySlug;
@@ -20,6 +26,7 @@ export interface Article {
   dek: string;
   body: string[];
   featured?: boolean;
+  image?: ArticleImage;
 }
 
 export interface ListItem {
@@ -27,4 +34,5 @@ export interface ListItem {
   action: string;
   title: string;
   creator: string;
+  image?: ArticleImage;
 }

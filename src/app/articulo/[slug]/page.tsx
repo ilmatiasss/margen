@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArticleCard } from "@/components/article-card";
 import { ArrowLink } from "@/components/arrow-link";
-import { EditorialArt } from "@/components/editorial-art";
+import { MediaFrame } from "@/components/media-frame";
 import {
   articles,
   getArticleBySlug,
@@ -61,11 +61,14 @@ export default async function ArticlePage({ params }: Props) {
         </p>
       </div>
 
-      <div className="container-page aspect-[16/9] overflow-hidden bg-surface md:aspect-[21/9]">
-        <EditorialArt
+      <div className="container-page relative aspect-[16/9] overflow-hidden bg-surface md:aspect-[21/9]">
+        <MediaFrame
+          image={article.image}
           seed={article.slug}
           category={article.category}
           scale="hero"
+          sizes="100vw"
+          priority
           className="h-full w-full"
         />
       </div>

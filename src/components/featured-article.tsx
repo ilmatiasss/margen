@@ -1,6 +1,6 @@
 import { featuredArticleSlug, getArticleBySlug } from "@/data/content";
 import { ArrowLink } from "./arrow-link";
-import { EditorialArt } from "./editorial-art";
+import { MediaFrame } from "./media-frame";
 
 export function FeaturedArticle() {
   const article = getArticleBySlug(featuredArticleSlug);
@@ -22,10 +22,13 @@ export function FeaturedArticle() {
       </div>
 
       <div className="relative aspect-[4/5] w-full overflow-hidden bg-surface">
-        <EditorialArt
+        <MediaFrame
+          image={article.image}
           seed={article.slug}
           category={article.category}
           scale="hero"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          priority
           className="h-full w-full"
         />
         <span className="kicker absolute bottom-4 right-4 text-[11px] text-foreground/70">

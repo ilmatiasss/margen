@@ -6,7 +6,7 @@ import {
   heroSplitArticleSlug,
 } from "@/data/content";
 import { ArrowLink } from "./arrow-link";
-import { EditorialArt } from "./editorial-art";
+import { MediaFrame } from "./media-frame";
 import { ArrowIcon } from "./icons";
 import { SocialLinks } from "./social-links";
 
@@ -22,11 +22,13 @@ export function SplitFeature() {
           href={`/articulo/${article.slug}`}
           className="group flex flex-col gap-5 lg:col-span-6"
         >
-          <div className="aspect-[16/10] overflow-hidden bg-surface">
-            <EditorialArt
+          <div className="relative aspect-[16/10] overflow-hidden bg-surface">
+            <MediaFrame
+              image={article.image}
               seed={article.slug}
               category={article.category}
               scale="hero"
+              sizes="(min-width: 1024px) 50vw, 100vw"
               className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]"
             />
           </div>
