@@ -398,6 +398,7 @@ export function getLatestGrid(): Article[] {
     "libros-para-una-epoca-incierta",
     "que-queda-de-internet-en-nuestras-vidas",
     "santiago-una-ciudad-de-contrastes",
+    "los-videojuegos-que-se-sienten-como-literatura",
   ];
   return slugs
     .map((slug) => getArticleBySlug(slug))

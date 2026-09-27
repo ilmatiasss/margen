@@ -10,7 +10,7 @@ export function LatestGrid() {
     <section className="border-t border-border">
       <div className="container-page py-14 md:py-16">
         <SectionHeading label="Lo último" href="/archivo" linkText="Ver todo" />
-        <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {articles.map((article, index) => (
             <Reveal key={article.slug} delay={index * 90}>
               <ArticleCard article={article} />

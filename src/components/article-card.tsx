@@ -16,7 +16,7 @@ export function ArticleCard({ article }: { article: Article }) {
           image={article.image}
           seed={article.slug}
           category={article.category}
-          sizes="(min-width: 1280px) 20vw, (min-width: 640px) 45vw, 90vw"
+          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 45vw, 90vw"
           className="h-full w-full transition-transform duration-500 ease-out group-hover:scale-[1.04]"
         />
       </div>
