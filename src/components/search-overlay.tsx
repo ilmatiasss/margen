@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { articles, categories } from "@/data/content";
+import { articles, categories, getCategory } from "@/data/content";
 import { CloseIcon, SearchIcon } from "./icons";
 
 export function SearchOverlay({
@@ -29,11 +29,15 @@ export function SearchOverlay({
     const q = query.trim().toLowerCase();
     if (!q) return [];
     return articles
-      .filter(
-        (article) =>
+      .filter((article) => {
+        const category = getCategory(article.category);
+        return (
           article.title.toLowerCase().includes(q) ||
-          article.dek.toLowerCase().includes(q),
-      )
+          article.dek.toLowerCase().includes(q) ||
+          category?.label.toLowerCase().includes(q) ||
+          article.category.toLowerCase().includes(q)
+        );
+      })
       .slice(0, 6);
   }, [query]);
 
