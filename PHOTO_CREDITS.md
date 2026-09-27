@@ -20,5 +20,13 @@ Las fotografías de `public/images/` provienen de Unsplash (vía Picsum) y se us
 | que-queda-internet.jpg | Alejandro Escamilla | unsplash.com/photos/yC-Yzbqy7PY |
 | software-nadie-entiende.jpg | Vadim Sherbakov | unsplash.com/photos/osSryggkso4 |
 | desconectarse-privilegio.jpg | Yuriy Khimanin | unsplash.com/photos/o4H20aIIAt8 |
+| hero.jpg | Alexander Shustov | unsplash.com/photos/AHBiSKaENwc |
+| vinilo.jpg | petradr | unsplash.com/photos/8hgm6mKK04U |
+| editoriales-independientes.jpg | Alejandro Escamilla | unsplash.com/photos/y83Je1OC6Wc |
+| jugar-solo.jpg | Thom | unsplash.com/photos/Zdcq3iKly6g |
+| dificultad-diseno.jpg | Jon Eckert | unsplash.com/photos/umLpP7uCZs0 |
+| list-escuchar.jpg | Hide Obara | unsplash.com/photos/Qh6wsKk1HWg |
+| list-jugar.jpg | koichi nakajima | unsplash.com/photos/HFbRnCjWHsk |
+| list-descubrir.jpg | Dorothy Lin | unsplash.com/photos/TIr6EwYMRUM |
 
-Los artículos sin fotografía asignada (el destacado de portada, "Vinilo", "Editoriales independientes", "Jugar solo ya no es jugar solo", "La dificultad como diseño" y los ítems "Escuchar", "Jugar" y "Descubrir" de The Margen List) usan el sistema de arte generativo en SVG (`src/components/editorial-art.tsx`) porque no se encontró una fotografía de stock que calzara bien con el tema — mejor eso que una imagen genérica que no represente el contenido.
+Todos los artículos y los cinco ítems de The Margen List ya tienen fotografía real asignada. La referencia original que nos compartieron incluía portada real del disco de The Cure, arte oficial de Elden Ring y fotografía de producto de Salomon para esos mismos tres ítems de la lista — con derechos de terceros, así que no las usamos; se reemplazaron por estas fotos de licencia libre siguiendo la misma idea temática (escuchar, jugar, descubrir). Si el arte generativo (`src/components/editorial-art.tsx`) llega a usarse en el futuro, sigue disponible como respaldo automático para cualquier artículo nuevo que todavía no tenga foto.

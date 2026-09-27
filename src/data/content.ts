@@ -25,6 +25,11 @@ export const articles: Article[] = [
     title: "El arte de no encajar",
     dek: "Hablamos con la artista visual chilena Renata Solar sobre su nueva exposición, la importancia de lo marginal y cómo el arte también es una forma de resistencia.",
     featured: true,
+    image: {
+      src: "/images/hero.jpg",
+      alt: "Retrato de una mujer al aire libre, a contraluz",
+      credit: "Foto: Alexander Shustov / Unsplash",
+    },
     body: [
       "Renata Solar lleva más de una década trabajando desde los bordes de la escena visual chilena, y dice que eso nunca fue una estrategia: simplemente nunca encontró un centro al cual pertenecer del todo. Su nueva exposición, que reúne cinco años de trabajo entre dibujo, textil y video, parte precisamente de esa incomodidad.",
       "\"Durante mucho tiempo sentí que tenía que elegir un lenguaje y quedarme ahí. Con los años entendí que lo marginal no es un lugar de llegada, sino un método de trabajo\", cuenta en su taller, rodeada de bocetos que todavía no decide si van a la muestra final.",
@@ -33,10 +38,10 @@ export const articles: Article[] = [
     ],
   },
   {
-    slug: "cinco-discos-que-estan-marcando-el-2025",
+    slug: "cinco-discos-que-estan-marcando-el-2026",
     category: "musica",
     index: "017",
-    title: "5 discos que están marcando el 2025",
+    title: "5 discos que están marcando el 2026",
     dek: "Una selección de álbumes que merecen tu atención, sin importar en qué género te muevas.",
     image: {
       src: "/images/cinco-discos.jpg",
@@ -44,7 +49,7 @@ export const articles: Article[] = [
       credit: "Foto: Aleksi Tappura / Unsplash",
     },
     body: [
-      "Cada año hay discos que se sienten como un corte: antes y después de escucharlos. Esta selección no busca ser exhaustiva ni predecir qué quedará en la historia, sino señalar cinco trabajos que, en lo que va de 2025, han logrado algo cada vez más difícil: sonar necesarios.",
+      "Cada año hay discos que se sienten como un corte: antes y después de escucharlos. Esta selección no busca ser exhaustiva ni predecir qué quedará en la historia, sino señalar cinco trabajos que, en lo que va de 2026, han logrado algo cada vez más difícil: sonar necesarios.",
       "Hay de todo un poco. Un debut que nadie esperaba, un regreso que se sintió como reinvención, y al menos un disco que probablemente vas a odiar la primera vez que lo escuches y no vas a poder dejar de escuchar la segunda.",
       "Lo que conecta a estos cinco trabajos no es el género ni la escena, sino una misma voluntad de arriesgar: producciones que no le tienen miedo al silencio, canciones que se toman su tiempo, artistas que prefieren equivocarse a repetirse.",
       "La lista completa, con notas track por track, está disponible para quienes prefieren profundizar antes de decidir si vale la pena el viaje completo.",
@@ -74,6 +79,11 @@ export const articles: Article[] = [
     index: "011",
     title: "Vinilo: por qué volvimos a girar el disco",
     dek: "El formato que parecía muerto se transformó en ritual. Una mirada al regreso del vinilo y lo que dice de cómo queremos escuchar música hoy.",
+    image: {
+      src: "/images/vinilo.jpg",
+      alt: "Reloj antiguo en blanco y negro",
+      credit: "Foto: petradr / Unsplash",
+    },
     body: [
       "Durante años el vinilo fue un objeto de nicho, cosa de coleccionistas y nostálgicos. Hoy las prensadoras trabajan a capacidad máxima y hay listas de espera de meses para lanzamientos que, hace una década, nadie hubiera pensado en sacar en este formato.",
       "La explicación fácil habla de nostalgia, pero eso no alcanza para entender por qué tantas personas que nunca vivieron la era del vinilo también se sumaron. Lo que parece estar pasando es otra cosa: un cansancio con el consumo desechable de la música en streaming.",
@@ -156,10 +166,15 @@ export const articles: Article[] = [
     index: "004",
     title: "Editoriales independientes que vale la pena seguir",
     dek: "Pequeños sellos, grandes catálogos: dónde buscar cuando las novedades de las grandes editoriales ya no alcanzan.",
+    image: {
+      src: "/images/editoriales-independientes.jpg",
+      alt: "Mano escribiendo en un cuaderno junto a un laptop",
+      credit: "Foto: Alejandro Escamilla / Unsplash",
+    },
     body: [
       "Mientras los grandes grupos editoriales concentran cada vez más el espacio en librerías, un puñado de sellos independientes sigue apostando por catálogos pequeños, cuidados y con una identidad clara. Encontrar sus libros exige un poco más de esfuerzo. Vale la pena.",
       "Lo que distingue a estas editoriales no es solo el tipo de autores que publican, sino la manera en que arman su catálogo: menos títulos, más criterio, y una disposición a apostar por voces que las editoriales grandes considerarían demasiado arriesgadas.",
-      "Esta guía reúne seis sellos —chilenos y latinoamericanos— que llevan años sosteniendo ese trabajo casi artesanal, y que en 2025 siguen publicando algunos de los libros más interesantes que vas a encontrar este año.",
+      "Esta guía reúne seis sellos —chilenos y latinoamericanos— que llevan años sosteniendo ese trabajo casi artesanal, y que en 2026 siguen publicando algunos de los libros más interesantes que vas a encontrar este año.",
     ],
   },
   {
@@ -287,6 +302,11 @@ export const articles: Article[] = [
     index: "024",
     title: "Jugar solo ya no es jugar solo",
     dek: "Cómo el streaming y los chats convirtieron las partidas individuales en experiencias profundamente sociales.",
+    image: {
+      src: "/images/jugar-solo.jpg",
+      alt: "Teléfono celular sobre una mesa",
+      credit: "Foto: Thom / Unsplash",
+    },
     body: [
       "Hasta hace poco, jugar en modo historia era casi por definición una experiencia solitaria. Eso cambió por completo: hoy es común que una partida individual transcurra con un chat activo, una transmisión en vivo, o simplemente la certeza de que alguien más está mirando.",
       "Ese cambio no es solo tecnológico, es cultural. El streaming transformó al videojuego en un espectáculo compartido en tiempo real, y a los jugadores en algo parecido a narradores improvisados de su propia experiencia.",
@@ -299,6 +319,11 @@ export const articles: Article[] = [
     index: "016",
     title: "La dificultad como diseño, no como castigo",
     dek: "Por qué algunos de los juegos más exigentes también son los más queridos por quienes los terminan.",
+    image: {
+      src: "/images/dificultad-diseno.jpg",
+      alt: "Guante y pelota de béisbol en primer plano",
+      credit: "Foto: Jon Eckert / Unsplash",
+    },
     body: [
       "Existe la idea extendida de que un juego difícil es, casi por definición, un juego hostil con quien lo juega. Los títulos que revisamos en este texto demuestran lo contrario: la dificultad, bien diseñada, puede ser exactamente lo que hace que una victoria se sienta merecida.",
       "La diferencia está en el diseño. Un juego injustamente difícil castiga; uno exigente enseña. Cada muerte entrega información, cada intento acerca un poco más a entender el sistema. Cuando eso funciona, la frustración se transforma en algo parecido a la obsesión.",
@@ -368,7 +393,7 @@ export function getArticlesByCategory(categorySlug: string): Article[] {
 
 export function getLatestGrid(): Article[] {
   const slugs = [
-    "cinco-discos-que-estan-marcando-el-2025",
+    "cinco-discos-que-estan-marcando-el-2026",
     "la-nostalgia-tambien-es-una-forma-de-futuro",
     "libros-para-una-epoca-incierta",
     "que-queda-de-internet-en-nuestras-vidas",
@@ -380,7 +405,17 @@ export function getLatestGrid(): Article[] {
 }
 
 export const listItems: ListItem[] = [
-  { order: "01", action: "Escuchar", title: "Songs of a Lost World", creator: "The Cure" },
+  {
+    order: "01",
+    action: "Escuchar",
+    title: "Songs of a Lost World",
+    creator: "The Cure",
+    image: {
+      src: "/images/list-escuchar.jpg",
+      alt: "Farol encendido de noche bajo la nieve",
+      credit: "Foto: Hide Obara / Unsplash",
+    },
+  },
   {
     order: "02",
     action: "Ver",
@@ -403,8 +438,28 @@ export const listItems: ListItem[] = [
       credit: "Foto: Logan Adermatt / Unsplash",
     },
   },
-  { order: "04", action: "Jugar", title: "Elden Ring", creator: "FromSoftware" },
-  { order: "05", action: "Descubrir", title: "Salomon XT-6", creator: "Gore-Tex" },
+  {
+    order: "04",
+    action: "Jugar",
+    title: "Elden Ring",
+    creator: "FromSoftware",
+    image: {
+      src: "/images/list-jugar.jpg",
+      alt: "Skateboard apoyado contra una pared",
+      credit: "Foto: koichi nakajima / Unsplash",
+    },
+  },
+  {
+    order: "05",
+    action: "Descubrir",
+    title: "Salomon XT-6",
+    creator: "Gore-Tex",
+    image: {
+      src: "/images/list-descubrir.jpg",
+      alt: "Sendero de montaña en blanco y negro con una persona a la distancia",
+      credit: "Foto: Dorothy Lin / Unsplash",
+    },
+  },
 ];
 
 export const footerLinks = [

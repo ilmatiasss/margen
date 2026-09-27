@@ -40,7 +40,7 @@ Las categorías (`/musica`, `/cine`, `/libros`, `/ideas`, `/cultura`, `/play`, `
 
 ## Imágenes
 
-La mayoría de los artículos usa fotografía real en `public/images/` (créditos en `PHOTO_CREDITS.md`). Los artículos que todavía no tienen una foto asignada muestran automáticamente un arte generativo (`src/components/editorial-art.tsx`) como respaldo. `src/components/media-frame.tsx` decide cuál mostrar: alcanza con agregar un campo `image` al artículo en `content.ts` y colocar el archivo en `public/images/` para reemplazar el respaldo por la foto definitiva.
+Todos los artículos y los ítems de The Margen List usan fotografía real en `public/images/` (créditos en `PHOTO_CREDITS.md`). Si se agrega contenido nuevo sin foto todavía, `src/components/media-frame.tsx` muestra automáticamente un arte generativo (`src/components/editorial-art.tsx`) como respaldo hasta que se le asigne una imagen definitiva vía el campo `image` en `content.ts`.
 
 ## Contenido
 
